@@ -15,7 +15,7 @@ public class Gastronomia extends Servicio {
     private int diaSemDesc;
 
     public Gastronomia(String gastronomia, double precio, int diaSemDesc, String codServicio, double porcentajeDescuento, boolean enPromocion) throws InvaliCodServicioException {
-        super(codServicio, porcentajeDescuento, enPromocion); // Este constructor lanza la excepción
+        super(codServicio, porcentajeDescuento, enPromocion);
         this.gastronomia = gastronomia;
         this.precio = precio;
         this.diaSemDesc = diaSemDesc;

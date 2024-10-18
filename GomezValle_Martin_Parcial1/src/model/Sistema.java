@@ -43,7 +43,7 @@ public class Sistema {
                }
           }
 
-          return serviciosEnPromocion; // Retorna la lista de servicios en promoción
+          return serviciosEnPromocion;
      }
 
      public List<Servicio> traerServicio(boolean enPromocion, LocalDate dia) {
@@ -79,5 +79,4 @@ public class Sistema {
           return true;
      }
 
-     // TERMINAAAAAAAAAR
 }

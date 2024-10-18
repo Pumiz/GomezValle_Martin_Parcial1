@@ -49,7 +49,5 @@ public abstract class Servicio {
      public String toString() {
           return "Servicio{" + "codServicio=" + codServicio + ", porcentajeDescuento=" + porcentajeDescuento + ", enPromocion=" + enPromocion + '}';
      }
-            
-     
      
 }
